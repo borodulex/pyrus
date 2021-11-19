@@ -18,6 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "npm run js:lint && npm run css:lint",
+    "js:lint": "eslint src --ext .ts,.tsx,.js,.jsx",
     "css:lint": "stylelint **/*.scss"
   },
   "eslintConfig": {
