@@ -4,4 +4,4 @@ export const App = (): JSX.Element => {
       <h1>Котопочта</h1>
     </div>
   );
-}
+};
