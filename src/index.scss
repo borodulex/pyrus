@@ -1,10 +1,5 @@
 @import "./vendor/normalize.scss";
 @import "./vendor/fonts.scss";
-
-body {
-  font-family: PTSansWebRegular, Arial, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  text-size-adjust: 100%;
-}
+@import "./shared/styles/global.scss";
+@import "./shared/styles/palette.scss";
+@import "./shared/styles/vars.scss";
