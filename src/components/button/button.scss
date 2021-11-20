@@ -1,0 +1,68 @@
+@import "shared/styles/mixins/text.scss";
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: opacity, background-color 100ms ease;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: var(--color-brand-primary-light);
+  }
+
+  &:active {
+    background-color: var(--color-brand-primary);
+    opacity: .6;
+  }
+
+  &_s {
+    @include text-body;
+
+    min-height: 32px;
+    padding: 0 18px;
+  }
+
+  &_m {
+    min-height: 48px;
+    padding: 0 24px;
+  }
+
+  &_primary {
+    background-color: var(--color-brand-primary);
+    color: #fff;
+  }
+
+  &_ghost {
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    line-height: 0;
+  }
+
+  &__addon {
+    display: flex;
+    align-items: center;
+
+    &:first-child {
+      margin-right: 6px;
+    }
+
+    &:last-child {
+      margin-left: 6px;
+    }
+
+    &:only-child {
+      margin: 0;
+    }
+  }
+
+  &__text {
+    flex: 1;
+    user-select: none;
+  }
+}
