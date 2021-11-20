@@ -1,0 +1,18 @@
+.navbar__item {
+  white-space: nowrap;
+
+  &:not(:last-child) {
+    margin-right: 19px;
+  }
+}
+
+@media (max-width: 728px) {
+  .navbar__item {
+    padding: 0 9px;
+    margin-top: 8px;
+
+    &:not(:last-child) {
+      margin-right: unset;
+    }
+  }
+}
