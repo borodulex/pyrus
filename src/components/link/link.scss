@@ -1,0 +1,18 @@
+.link {
+  color: var(--color-brand-primary);
+  transition: opacity, color 100ms ease;
+
+  &:hover,
+  &:active {
+    text-decoration-line: none;
+  }
+
+  &:hover {
+    color: var(--color-brand-primary-light);
+  }
+
+  &:active {
+    color: var(--color-brand-primary);
+    opacity: .6;
+  }
+}
