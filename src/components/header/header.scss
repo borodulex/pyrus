@@ -1,0 +1,44 @@
+.header {
+  flex: 1;
+
+  &__container {
+    display: flex;
+    max-width: var(--page-content-max-width);
+    align-items: center;
+    padding: 0 20px;
+    margin: 100px auto 0;
+  }
+
+  &__logo {
+    margin-right: auto;
+  }
+
+  &__navbar {
+    margin: 0 20px 0 0;
+  }
+
+  &__button {
+    width: 100px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 728px) {
+  .header {
+    &__container {
+      flex-direction: column;
+    }
+
+    &__logo {
+      margin-right: unset;
+    }
+
+    &__navbar {
+      margin: 34px 0 0;
+    }
+
+    &__button {
+      margin-top: 15px;
+    }
+  }
+}
