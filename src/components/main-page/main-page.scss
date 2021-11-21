@@ -2,13 +2,12 @@
 
 .main-page {
   padding-bottom: 88px;
-  margin-top: 70px;
 
   &__container {
     display: grid;
     max-width: var(--page-content-max-width);
     padding: 0 20px;
-    margin: 0 auto;
+    margin: 66px auto 0;
     grid-column-gap: 40px;
     grid-template-areas: "main aside";
     grid-template-columns: 1fr 300px;
@@ -32,6 +31,8 @@
 
   &__text {
     @include text-body;
+
+    margin: 10px 0 0;
   }
 
   &__form {
@@ -96,6 +97,7 @@
 
     &_el {
       &_main-text {
+        min-height: 160px;
         padding: 10px;
         margin-top: 16px;
         resize: vertical;
@@ -104,7 +106,7 @@
       &_text {
         min-height: 32px;
         padding: 0 12px;
-        grid-area: "input";
+        grid-area: input;
       }
 
       &_extra-option {
@@ -152,7 +154,7 @@
 
   &__list-item {
     &:not(:first-child) {
-      margin-top: 26px;
+      margin-top: 20px;
     }
   }
 
@@ -192,7 +194,7 @@
   &__title {
     @include headline-2;
 
-    margin: 0;
+    margin: 10px 0 0;
   }
 
   &__list {
@@ -216,14 +218,47 @@
 @media (max-width: 728px) {
   .main-page {
     &__container {
+      margin-top: 56px;
       grid-template-areas:
         "main"
         "aside";
       grid-template-columns: 1fr;
     }
+
+    &__form {
+      margin-top: 50px;
+    }
   }
 
   .aside-gallery {
     margin-top: 60px;
+
+    &__title {
+      margin: 0;
+    }
+  }
+
+  .form {
+    &__input-group {
+      margin-top: 22px;
+      grid-template-areas:
+        "label"
+        "input"
+        "caption";
+      grid-template-columns: 1fr;
+    }
+
+    &__item {
+      &_el {
+        &_text {
+          margin-top: 8px;
+        }
+      }
+    }
+
+    &__button {
+      width: 100%;
+      justify-content: center;
+    }
   }
 }

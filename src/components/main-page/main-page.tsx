@@ -53,7 +53,6 @@ export const MainPage = (props: IMainPageProps): JSX.Element => {
               className={cn('form__item', 'form__item_el_main-text')}
               name="main-text"
               placeholder="Что-нибудь хорошее"
-              rows={6}
               required
             />
             <fieldset className={cn('form__input-container')}>
