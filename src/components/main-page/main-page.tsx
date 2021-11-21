@@ -2,6 +2,7 @@ import cn from 'classnames';
 
 import { Button } from 'components/button';
 import { ReactComponent as SvgPawIcon } from 'images/icon-paw.svg';
+import { HAPPY_CATS_IMAGES } from 'mocks/happy-cats-images';
 
 import './main-page.scss';
 
@@ -144,6 +145,23 @@ export const MainPage = (props: IMainPageProps): JSX.Element => {
             </Button>
           </form>
         </main>
+        <aside className={cn('main-page__aside', 'aside-gallery')}>
+          <h2 className={cn('aside-gallery__title')}>Довольные коты</h2>
+          <ul className={cn('aside-gallery__list')}>
+            {HAPPY_CATS_IMAGES.map((image, index) => (
+              <li
+                key={index}
+                className={cn('aside-gallery__item')}
+              >
+                <img
+                  className={cn('aside-gallery__image')}
+                  src={image.image}
+                  alt={image.description}
+                />
+              </li>
+            ))}
+          </ul>
+        </aside>
       </div>
     </div>
   );
