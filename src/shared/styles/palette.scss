@@ -1,9 +1,14 @@
 :root {
   /* Дефолтные цвета */
   --color-default-text: #000;
+  --color-default-text-secondary: #808080;
   --color-default-background: #fff;
+  --color-default-border-light: rgb(0 0 0 / 5%);
+  --color-default-border: rgb(0 0 0 / 15%);
+  --color-default-border-dark: rgb(0 0 0 / 35%);
 
   /* Брендовые цвета */
+  --color-brand-primary-dark: #0a6ea6;
   --color-brand-primary: #0078bb;
   --color-brand-primary-light: #62b9ea;
 }

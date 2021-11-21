@@ -14,11 +14,11 @@ export type TMainNavigationItem = {
 
 interface IMainNavigationProps {
   mainNavigationItems: TMainNavigationItem[];
-  onClick: React.MouseEventHandler<HTMLButtonElement>;
+  onLogin: React.MouseEventHandler<HTMLButtonElement>;
 }
 
 export const Header = (props: IMainNavigationProps): JSX.Element => {
-  const { mainNavigationItems, onClick } = props;
+  const { mainNavigationItems, onLogin } = props;
 
   return (
     <header className='header'>
@@ -39,7 +39,7 @@ export const Header = (props: IMainNavigationProps): JSX.Element => {
           className={cn('header__button')}
           view='primary'
           size='s'
-          onClick={onClick}
+          onClick={onLogin}
         >
           Войти
         </Button>

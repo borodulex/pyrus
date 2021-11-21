@@ -8,6 +8,7 @@ export interface IButtonProps {
   className?: string;
   view?: 'primary' | 'ghost';
   size?: 's' | 'm';
+  type?: 'button' | 'submit';
   children?: React.ReactNode;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
@@ -19,6 +20,7 @@ export const Button= (props: IButtonProps): JSX.Element => {
     children,
     view = 'primary',
     size = 'm',
+    type = 'button',
     className,
     ...restButtonProps
   } = props;
@@ -33,7 +35,7 @@ export const Button= (props: IButtonProps): JSX.Element => {
           [`button_${size}`]: size,
         },
       )}
-      type="button"
+      type={type}
       {...restButtonProps}
     >
       {addonBefore && <span className={cn('button__addon')}>{addonBefore}</span>}

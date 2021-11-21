@@ -1,20 +1,17 @@
 @font-face {
-	font-family: 'PTSansWebRegular';
-	font-weight: 400;
-	font-style: normal;
-
-    src:
-    url('./fonts/PT-Sans_Regular.woff2') format('woff2'),
-    url('./fonts/PT-Sans_Regular.woff') format('woff');
+  font-family: PTSansWebRegular;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("./fonts/PT-Sans_Regular.woff2") format("woff2"),
+    url("./fonts/PT-Sans_Regular.woff") format("woff");
 }
 
-
 @font-face {
-	font-family: 'PTSansWebNarrowRegular';
-	font-weight: 400;
-	font-style: normal;
-
-    src:
-    url('./fonts/PT-Sans_Narrow-Regular.woff2') format('woff2'),
-    url('./fonts/PT-Sans_Narrow-Regular.woff') format('woff');
+  font-family: PTSansWebNarrowRegular;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("./fonts/PT-Sans_Narrow-Regular.woff2") format("woff2"),
+    url("./fonts/PT-Sans_Narrow-Regular.woff") format("woff");
 }

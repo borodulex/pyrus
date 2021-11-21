@@ -1,6 +1,6 @@
 .link {
   color: var(--color-brand-primary);
-  transition: opacity, color 100ms ease;
+  transition: color 100ms ease;
 
   &:hover,
   &:active {
@@ -12,7 +12,6 @@
   }
 
   &:active {
-    color: var(--color-brand-primary);
-    opacity: .6;
+    color: var(--color-brand-primary-dark);
   }
 }

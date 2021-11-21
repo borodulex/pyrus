@@ -7,7 +7,7 @@
   border-radius: 4px;
   cursor: pointer;
   font-family: inherit;
-  transition: opacity, background-color 100ms ease;
+  transition: background-color 100ms ease;
   white-space: nowrap;
 
   &:hover {
@@ -15,8 +15,7 @@
   }
 
   &:active {
-    background-color: var(--color-brand-primary);
-    opacity: .6;
+    background-color: var(--color-brand-primary-dark);
   }
 
   &_s {
@@ -27,6 +26,8 @@
   }
 
   &_m {
+    @include text-primary;
+
     min-height: 48px;
     padding: 0 24px;
   }

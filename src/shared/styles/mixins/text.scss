@@ -1,5 +1,47 @@
+@mixin headline {
+  font-family: PTSansWebNarrowRegular, Arial, sans-serif;
+}
+
+@mixin text {
+  font-family: PTSansWebRegular, Arial, sans-serif;
+}
+
 @mixin text-body {
+  @include text;
+
   font-size: 16px;
   font-weight: 400;
   line-height: 21px;
+}
+
+@mixin text-primary {
+  @include text;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+@mixin text-caption {
+  @include text;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+@mixin headline-1 {
+  @include headline;
+
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+@mixin headline-3 {
+  @include headline;
+
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
 }
