@@ -4,12 +4,13 @@
   "description": "Тестовое задание на вёрстку для фронтенд-разработчика в Pyrus",
   "private": true,
   "author": "Ilya Borodulin",
-  "homepage": "https://github.com/borodulex/pyrus",
+  "homepage": "https://borodulex.github.io/pyrus",
   "dependencies": {
     "@types/node": "^12.20.37",
     "@types/react": "^17.0.35",
     "@types/react-dom": "^17.0.11",
     "classnames": "^2.3.1",
+    "gh-pages": "^3.2.3",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -17,6 +18,8 @@
     "typescript": "^4.5.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint": "npm run js:lint && npm run css:lint",
