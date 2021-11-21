@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/borodulex/pyrus/static/css/main.4ed80bac.chunk.css",
-    "main.js": "/borodulex/pyrus/static/js/main.69cb0012.chunk.js",
-    "main.js.map": "/borodulex/pyrus/static/js/main.69cb0012.chunk.js.map",
-    "runtime-main.js": "/borodulex/pyrus/static/js/runtime-main.ea39f79f.js",
-    "runtime-main.js.map": "/borodulex/pyrus/static/js/runtime-main.ea39f79f.js.map",
-    "static/js/2.2f394743.chunk.js": "/borodulex/pyrus/static/js/2.2f394743.chunk.js",
-    "static/js/2.2f394743.chunk.js.map": "/borodulex/pyrus/static/js/2.2f394743.chunk.js.map",
-    "index.html": "/borodulex/pyrus/index.html",
-    "static/css/main.4ed80bac.chunk.css.map": "/borodulex/pyrus/static/css/main.4ed80bac.chunk.css.map",
-    "static/js/2.2f394743.chunk.js.LICENSE.txt": "/borodulex/pyrus/static/js/2.2f394743.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/borodulex/pyrus/static/media/PT-Sans_Regular.92154447.woff",
-    "static/media/happy-cat-1.19ba9a08.jpg": "/borodulex/pyrus/static/media/happy-cat-1.19ba9a08.jpg",
-    "static/media/happy-cat-2.8a3dcfc4.jpg": "/borodulex/pyrus/static/media/happy-cat-2.8a3dcfc4.jpg",
-    "static/media/happy-cat-3.ca664c01.jpg": "/borodulex/pyrus/static/media/happy-cat-3.ca664c01.jpg",
-    "static/media/main-page.scss": "/borodulex/pyrus/static/media/icon-check.0d844d19.svg",
-    "static/media/icon-paw.7fb8e1bf.svg": "/borodulex/pyrus/static/media/icon-paw.7fb8e1bf.svg",
-    "static/media/logo.0016c4ab.svg": "/borodulex/pyrus/static/media/logo.0016c4ab.svg"
+    "main.css": "/pyrus/static/css/main.094b9e52.chunk.css",
+    "main.js": "/pyrus/static/js/main.69cb0012.chunk.js",
+    "main.js.map": "/pyrus/static/js/main.69cb0012.chunk.js.map",
+    "runtime-main.js": "/pyrus/static/js/runtime-main.a0edd204.js",
+    "runtime-main.js.map": "/pyrus/static/js/runtime-main.a0edd204.js.map",
+    "static/js/2.2f394743.chunk.js": "/pyrus/static/js/2.2f394743.chunk.js",
+    "static/js/2.2f394743.chunk.js.map": "/pyrus/static/js/2.2f394743.chunk.js.map",
+    "index.html": "/pyrus/index.html",
+    "static/css/main.094b9e52.chunk.css.map": "/pyrus/static/css/main.094b9e52.chunk.css.map",
+    "static/js/2.2f394743.chunk.js.LICENSE.txt": "/pyrus/static/js/2.2f394743.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/pyrus/static/media/PT-Sans_Regular.92154447.woff",
+    "static/media/happy-cat-1.19ba9a08.jpg": "/pyrus/static/media/happy-cat-1.19ba9a08.jpg",
+    "static/media/happy-cat-2.8a3dcfc4.jpg": "/pyrus/static/media/happy-cat-2.8a3dcfc4.jpg",
+    "static/media/happy-cat-3.ca664c01.jpg": "/pyrus/static/media/happy-cat-3.ca664c01.jpg",
+    "static/media/main-page.scss": "/pyrus/static/media/icon-check.0d844d19.svg",
+    "static/media/icon-paw.7fb8e1bf.svg": "/pyrus/static/media/icon-paw.7fb8e1bf.svg",
+    "static/media/logo.0016c4ab.svg": "/pyrus/static/media/logo.0016c4ab.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea39f79f.js",
+    "static/js/runtime-main.a0edd204.js",
     "static/js/2.2f394743.chunk.js",
-    "static/css/main.4ed80bac.chunk.css",
+    "static/css/main.094b9e52.chunk.css",
     "static/js/main.69cb0012.chunk.js"
   ]
 }
