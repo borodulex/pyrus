@@ -1,0 +1,14 @@
+<svg
+  width='17'
+  height='14'
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M1 8.5l3.5 4L16 1.5"
+    stroke="#0078BB"
+    strokeWidth='2'
+    strokeLinecap="round"
+  />
+</svg>
+
